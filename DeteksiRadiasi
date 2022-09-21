@@ -1,0 +1,9 @@
+m = 1;
+x = [m:10];
+y = [282 228 182 145 122 97 83 72 62 52 44];
+plot(x,y)
+xlim([0 10])
+ylim([0 300])
+xlabel('jarak (cm)')
+ylabel('intensitas radiasi (cacahan/waktu)')
+title('Grafik Intensitas Radiasi Alpha terhadap Jarak Sumber')
